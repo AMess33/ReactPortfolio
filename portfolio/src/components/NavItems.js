@@ -14,7 +14,7 @@ function NavItems({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="Portfolio"
+          href="#Portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -25,7 +25,7 @@ function NavItems({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="Contact"
+          href="#Contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
@@ -34,7 +34,7 @@ function NavItems({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="Resume"
+          href="#Resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >

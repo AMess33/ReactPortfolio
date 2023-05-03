@@ -32,42 +32,43 @@ function Contact() {
       setErrorMessage("Please leave a message");
       return;
     }
-
-    return (
-      <div>
-        <form className="form">
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="E-Mail"
-          />
-          <input
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Message"
-          />
-          <button type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
-        </form>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-      </div>
-    );
   };
+
+  return (
+    <div>
+      <form className="form">
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="E-Mail"
+        />
+        <input
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Message"
+        />
+        <button type="button" onClick={handleFormSubmit}>
+          Submit
+        </button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>
+  );
 }
+
 export default Contact;
