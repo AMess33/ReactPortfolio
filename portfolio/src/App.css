@@ -10,6 +10,7 @@
     background-color: rgb(240, 241, 243);
   }
   
+  /* Header styling */
   .header {
     background-color: rgb(63, 131, 199);
 
@@ -29,9 +30,9 @@
   text-align: center;
   padding-bottom: 20px;
 }
-
+/* content being dislayed on the page below nav */
 .content {
-  height: 500px;
+  height: 6dar00px;
   color: White;
   padding: 20px;
 
@@ -41,7 +42,7 @@
   text-align: center;
   text-shadow: 2px 2px 4px red;
 }
-
+/* about me styles */
 .aboutMeText {
   margin-left: 25%;
   color: white;
@@ -59,4 +60,22 @@
   position: relative;
   top: 10px;
   list-style-type: none;
+}
+/* resume styles */
+.resumeContent {
+  position: relative;
+  margin-left: 25%;
+}
+
+.jobs {
+  background-color: white;
+  color: #000;
+}
+.education {
+  background-color: white;
+  color: black;
+}
+.subheader {
+  color: black;
+  font-size: medium;
 }
