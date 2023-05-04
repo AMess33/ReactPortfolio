@@ -4,7 +4,7 @@ import Contact from "./Contact Form/Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import About from "./About";
-import background from "../ContentContainer.jpg";
+import background from "../images/ContentContainer.jpg";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("");

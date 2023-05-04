@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../abstract-paper-background-concept.jpg";
+import background from "../images/abstract-paper-background-concept.jpg";
 
 function Header() {
   return (
