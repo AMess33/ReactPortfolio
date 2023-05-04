@@ -37,6 +37,7 @@ function Contact() {
 
   return (
     <div>
+      <h1>Interested in collaborating? Send me a message!</h1>
       <form className="form">
         <input
           className="form-control"

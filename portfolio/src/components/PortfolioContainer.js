@@ -4,6 +4,7 @@ import Contact from "./Contact Form/Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import About from "./About";
+import background from "../ContentContainer.jpg";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("");
@@ -25,8 +26,21 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavItems currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div>
+        <NavItems
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </div>
+      <div
+        className="content"
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: "cover",
+        }}
+      >
+        {renderPage()}
+      </div>
     </div>
   );
 }
