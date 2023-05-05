@@ -20,10 +20,11 @@
     text-align: center;
     height: 150px;
     color: white;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline;
     text-decoration-color: rgb(133, 223, 157);
-    text-decoration-style: dashed;
+    text-decoration-style: dashed; */
     font-size: 80px;
+    text-shadow: 2px 2px 4px red;
 }
 
 .header h3 {
@@ -51,10 +52,10 @@ font-size: 25px;}
 }
 /* about me styles */
 .aboutMeText {
-  margin-left: 25%;
+  /* margin-left: 25%; */
   color: white;
-  position: relative;
-  bottom: 100px;
+  /* position: relative; */
+  /* bottom: 100px; */
 }
 
 .icons a {
@@ -69,13 +70,9 @@ font-size: 25px;}
   list-style-type: none;
 }
 /* resume styles */
-.resumeContent {
-  position: relative;
-  margin-left: 25%
-}
-.resumeBoxes {
-  
-
+.fullResume {
+  width: 75%;
+  margin-left: 50%;
 }
 .jobs {
   background-color: white;
