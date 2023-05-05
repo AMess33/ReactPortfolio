@@ -20,9 +20,6 @@
     text-align: center;
     height: 150px;
     color: white;
-    /* text-decoration-line: underline;
-    text-decoration-color: rgb(133, 223, 157);
-    text-decoration-style: dashed; */
     font-size: 80px;
     text-shadow: 2px 2px 4px red;
 }
@@ -40,7 +37,6 @@
 font-size: 25px;}
 /* content being dislayed on the page below nav */
 .content {
-  height: 6dar00px;
   color: White;
   padding: 20px;
 
@@ -52,16 +48,12 @@ font-size: 25px;}
 }
 /* about me styles */
 .aboutMeText {
-  /* margin-left: 25%; */
   color: white;
-  /* position: relative; */
-  /* bottom: 100px; */
 }
 
 .icons a {
   color: white;
   text-decoration: none;
- 
 }
 
 .icons li {
@@ -86,3 +78,65 @@ font-size: 25px;}
   color: black;
   font-size: medium;
 }
+
+.project {
+  position: relative;
+  width: 50%;
+  padding: 10px;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
+}
+
+.project .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.topRight {
+  font-size: 50px;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.project:hover .image {
+  opacity: 0.5;
+}
+
+.project:hover .middle {
+  opacity: 1;
+}
+
+.project:hover .topRight {
+  opacity: 1;
+}
+
+.text {
+  background-color: #889fda;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
