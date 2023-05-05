@@ -70,11 +70,11 @@ font-size: 25px;}
 }
 /* resume styles */
 .resumeContent {
-  width: 200px;
   position: relative;
+  margin-left: 25%
 }
 .resumeBoxes {
-  display: flex;
+  
 
 }
 .jobs {

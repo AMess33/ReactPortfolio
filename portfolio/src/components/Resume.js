@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="display-flex">
       <h1>Resume</h1>
       <div className="container resumeBoxes">
         <ul className="col s12 m4 icons">
@@ -67,17 +67,17 @@ export default function Resume() {
               </li>
             </ul>
           </div>
-          <div className="container">
-            <h3>
-              <i className="tiny material-icons">library_books</i> Education
-            </h3>
-            <div className="container education">
-              <h4>
-                University of Kansas Coding Bootcamp
-                <h6>Full Stack Web Development</h6>
-                <p className="subheader"> Nov 2022 - May 2023</p>
-              </h4>
-            </div>
+        </div>
+        <div className="container ">
+          <h3>
+            <i className="tiny material-icons">library_books</i> Education
+          </h3>
+          <div className="container education">
+            <h4>
+              University of Kansas Coding Bootcamp
+              <h6>Full Stack Web Development</h6>
+              <p className="subheader"> Nov 2022 - May 2023</p>
+            </h4>
           </div>
         </div>
       </div>
