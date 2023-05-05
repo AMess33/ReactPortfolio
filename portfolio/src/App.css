@@ -30,6 +30,13 @@
   text-align: center;
   padding-bottom: 20px;
 }
+.footer {
+  text-align: center;
+  padding: 15px;
+  line-height: 4px;
+}
+.copyright {
+font-size: 25px;}
 /* content being dislayed on the page below nav */
 .content {
   height: 6dar00px;
@@ -63,10 +70,13 @@
 }
 /* resume styles */
 .resumeContent {
+  width: 200px;
   position: relative;
-  margin-left: 25%;
 }
+.resumeBoxes {
+  display: flex;
 
+}
 .jobs {
   background-color: white;
   color: #000;
