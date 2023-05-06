@@ -4,11 +4,11 @@ function Footer() {
   return (
     <div className="footer">
       <div>
-        <a href="https://github.com/AMess33">
+        <a href="https://github.com/AMess33" target="_blank">
           <i className="bi bi-github"></i>
         </a>
         &nbsp;
-        <a href="https://www.linkedin.com/in/amesser33/">
+        <a href="https://www.linkedin.com/in/amesser33/" target="_blank">
           <i className="bi bi-linkedin"></i>
         </a>
       </div>

@@ -8,17 +8,20 @@ export default function Resume() {
         <div className="row">
           <ul className="col-md-3 col-sm-12 icons">
             <li>
-              <a href="https://docs.google.com/document/d/1UC0OCgNlM22cmg_NkxspxJTwd0IkPB8XkdoeQ3RjN5Q/edit?usp=sharing">
+              <a
+                href="https://docs.google.com/document/d/1UC0OCgNlM22cmg_NkxspxJTwd0IkPB8XkdoeQ3RjN5Q/edit?usp=sharing"
+                target="_blank"
+              >
                 <i className="tiny material-icons">list_alt</i> Resume
               </a>
             </li>
             <li>
-              <a href="https://github.com/AMess33">
+              <a href="https://github.com/AMess33" target="_blank">
                 <i class="bi bi-github"></i> GitHub
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/amesser33/">
+              <a href="https://www.linkedin.com/in/amesser33/" target="_blank">
                 <i class="bi bi-linkedin"></i> Linked In
               </a>
             </li>

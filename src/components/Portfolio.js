@@ -10,12 +10,12 @@ export default function Portfolio() {
         <div class="container col-md-6 project">
           <img src={andrew} className="image" alt="Andrew"></img>
           <div class="middle">
-            <a href="https://andrews-list.herokuapp.com/">
+            <a href="https://andrews-list.herokuapp.com/" target="_blank">
               <div class="text">Visit Webpage</div>
             </a>
           </div>
           <div className="topRight">
-            <a href="https://github.com/AMess33/AndrewsList">
+            <a href="https://github.com/AMess33/AndrewsList" target="_blank">
               <i class="bi bi-github"></i>
             </a>
           </div>
@@ -23,12 +23,18 @@ export default function Portfolio() {
         <div class="container col-md-6 project">
           <img src={dog} className="image" alt="Dog"></img>
           <div class="middle">
-            <a href="https://zencoh.github.io/soCrazyGroupProject/">
+            <a
+              href="https://zencoh.github.io/soCrazyGroupProject/"
+              target="_blank"
+            >
               <div class="text">Visit Webpage</div>
             </a>
           </div>
           <div className="topRight">
-            <a href="https://github.com/zencoh/soCrazyGroupProject">
+            <a
+              href="https://github.com/zencoh/soCrazyGroupProject"
+              target="_blank"
+            >
               <i class="bi bi-github"></i>
             </a>
           </div>

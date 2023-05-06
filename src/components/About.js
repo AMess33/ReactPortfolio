@@ -8,12 +8,12 @@ export default function About() {
         <div className="row">
           <ul className="col-md-4 col-sm-12 icons">
             <li>
-              <a href="https://github.com/AMess33">
+              <a href="https://github.com/AMess33" target="_blank">
                 <i className="tiny material-icons">person_outline</i> @AMess33
               </a>
             </li>
             <li>
-              <a href="mailto:amess3309@gmail.com">
+              <a href="mailto:amess3309@gmail.com" target="_blank">
                 <i className="tiny material-icons">email</i> amess3309@gmail.com
               </a>
             </li>
