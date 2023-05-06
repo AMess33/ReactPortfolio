@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.dc9bfa3d.css",
-    "main.js": "/static/js/main.205ba338.js",
+    "main.js": "/static/js/main.5b650ebc.js",
     "static/media/ContentContainer.jpg": "/static/media/ContentContainer.faf469ea2d8b64dd121b.jpg",
     "static/media/AndrewsList.png": "/static/media/AndrewsList.ccb2420fac617d2ca0ec.png",
     "static/media/abstract-paper-background-concept.jpg": "/static/media/abstract-paper-background-concept.d03e35ca979508205662.jpg",
     "static/media/CatDogSearch.png": "/static/media/CatDogSearch.cb1a4623300005096c64.png",
     "index.html": "/index.html",
     "main.dc9bfa3d.css.map": "/static/css/main.dc9bfa3d.css.map",
-    "main.205ba338.js.map": "/static/js/main.205ba338.js.map"
+    "main.5b650ebc.js.map": "/static/js/main.5b650ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.dc9bfa3d.css",
-    "static/js/main.205ba338.js"
+    "static/js/main.5b650ebc.js"
   ]
 }

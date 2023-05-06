@@ -26,9 +26,9 @@ export default function About() {
               {" "}
               Hi! My name's Andrew and I'm a software engineer specializing in
               full-stack JavaScript. I enjoy collaborating on innovative
-              projects, using my creativity and problem solving skills to bring
-              applications to life. When I'm not coding, I enjoy playing with my
-              dog, Taco, rooting for my local Kansas City sports teams, and
+              projects and using my creativity and problem solving skills to
+              bring applications to life. When I'm not coding, I enjoy playing
+              with my dog, rooting for my local Kansas City sports teams, and
               watching movies. Let's connect!
             </p>
           </div>
