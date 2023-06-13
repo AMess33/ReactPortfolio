@@ -1,4 +1,5 @@
 import React from "react";
+import headshot from "../images/1684878627425.jpeg";
 
 export default function About() {
   return (
@@ -6,21 +7,9 @@ export default function About() {
       <h1>About Me</h1>
       <div className="container">
         <div className="row">
-          <ul className="col-md-4 col-sm-12 icons">
-            <li>
-              <a href="https://github.com/AMess33" target="_blank">
-                <i className="tiny material-icons">person_outline</i> @AMess33
-              </a>
-            </li>
-            <li>
-              <a href="mailto:amess3309@gmail.com" target="_blank">
-                <i className="tiny material-icons">email</i> amess3309@gmail.com
-              </a>
-            </li>
-            <li>
-              <i className="tiny material-icons">place</i> Kansas City, MO
-            </li>
-          </ul>
+          <div className="col-md-4 col-sm-12">
+            <img src={headshot} className="border rounded" />
+          </div>
           <div className="col-md-8 col-sm-12">
             <p className="aboutMeText ">
               {" "}
@@ -31,6 +20,22 @@ export default function About() {
               with my dog, rooting for my local Kansas City sports teams, and
               watching movies. Let's connect!
             </p>
+            <ul className="icons">
+              <li>
+                <a href="https://github.com/AMess33" target="_blank">
+                  <i className="tiny material-icons">person_outline</i> @AMess33
+                </a>
+              </li>
+              <li>
+                <a href="mailto:amess3309@gmail.com" target="_blank">
+                  <i className="tiny material-icons">email</i>{" "}
+                  amess3309@gmail.com
+                </a>
+              </li>
+              <li>
+                <i className="tiny material-icons">place</i> Kansas City, MO
+              </li>
+            </ul>
           </div>
         </div>
       </div>
