@@ -9,7 +9,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="row">
         <div class="container col-12 project">
-          <img src={game} className="image" alt="Andrew"></img>
+          <img src={game} className="image border rounded" alt="Andrew"></img>
           <div class="middle">
             <a href="https://game-night-1.herokuapp.com/" target="_blank">
               <div class="text">Visit Webpage</div>
@@ -22,8 +22,12 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div class="container col-md-6 project">
-            <img src={andrew} className="image" alt="Andrew"></img>
+          <div class="container mx-auto col-md-6 project">
+            <img
+              src={andrew}
+              className="image border rounded"
+              alt="Andrew"
+            ></img>
             <div class="middle">
               <a href="https://andrews-list.herokuapp.com/" target="_blank">
                 <div class="text">Visit Webpage</div>
@@ -36,7 +40,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div class="container col-md-6 project">
-            <img src={dog} className="image" alt="Dog"></img>
+            <img src={dog} className="image border rounded" alt="Dog"></img>
             <div class="middle">
               <a
                 href="https://zencoh.github.io/soCrazyGroupProject/"
