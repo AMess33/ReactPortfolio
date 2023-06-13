@@ -43,7 +43,7 @@ export default function Portfolio() {
             <img src={dog} className="image border rounded" alt="Dog"></img>
             <div class="middle">
               <a
-                href="https://zencoh.github.io/soCrazyGroupProject/"
+                href="https://zencoh.github.io/DogandCatSearchEngine/"
                 target="_blank"
               >
                 <div class="text">Visit Webpage</div>
