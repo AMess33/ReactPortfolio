@@ -27,7 +27,10 @@ export default function Resume() {
             </li>
           </ul>
           <div className="col-md-9 col-sm-12">
-            <h3 className="">Technical Skills</h3>
+            <h3>
+              {" "}
+              <i className="tiny material-icons">code</i> Technical Skills
+            </h3>
             <p className="container jobs border rounded border-dark">
               JavaScript, HTML, CSS, BootStrap, Node, Express, MYSQL, MongoDB,
               React.js
