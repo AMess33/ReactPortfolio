@@ -27,12 +27,17 @@ export default function Resume() {
             </li>
           </ul>
           <div className="col-md-9 col-sm-12">
+            <h3 className="">Technical Skills</h3>
+            <p className="container jobs border rounded border-dark">
+              JavaScript, HTML, CSS, BootStrap, Node, Express, MYSQL, MongoDB,
+              React.js
+            </p>
             <h3>
               {" "}
               <i className="tiny material-icons">work</i> Professional
               Experience
             </h3>
-            <div className="container jobs">
+            <div className="container jobs border rounded border-dark">
               <h4>
                 EPC Inc.
                 <span className="subheader"> Aug 2021 - Nov 2022</span>
@@ -75,7 +80,7 @@ export default function Resume() {
             <h3>
               <i className="tiny material-icons">library_books</i> Education
             </h3>
-            <div className="container education">
+            <div className="container education border rounded border-dark">
               <h4>
                 University of Kansas Coding Bootcamp
                 <h6>Full Stack Web Development</h6>

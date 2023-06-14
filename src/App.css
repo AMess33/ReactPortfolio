@@ -80,6 +80,13 @@ font-size: 25px;}
   font-size: medium;
 }
 
+.bootcamp {
+  border: #000;
+  border-style: solid;
+  background-color: aliceblue;
+  color: #000;
+}
+
 .project {
   position: relative;
   width: 50%;
