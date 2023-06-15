@@ -31,10 +31,33 @@ export default function Resume() {
               {" "}
               <i className="tiny material-icons">code</i> Technical Skills
             </h3>
-            <p className="container jobs border rounded border-dark">
-              JavaScript, HTML, CSS, BootStrap, Node, Express, MYSQL, MongoDB,
-              React.js
-            </p>
+            <div className="container jobs border rounded border-dark">
+              <p>
+                <span className="fw-bold">Languages:</span> JavaScript, HTML,
+                CSS
+              </p>
+              <p>
+                <span className="fw-bold">Frontend Technologies:</span> React,
+                Bootstrap, jQuery, Handlebars.js, JWT
+              </p>
+              <p>
+                <span className="fw-bold">Backend Technologies:</span> RESTful
+                API, Node.js, Express.js, Heroku, Bcrypt, MySql, Sequelize,
+                MongoDB, Mongoose, Apollo Client, GraphQL
+              </p>
+            </div>
+            <br />
+            <h3>
+              <i className="tiny material-icons">library_books</i> Education
+            </h3>
+            <div className="container education border rounded border-dark">
+              <h4>
+                University of Kansas
+                <h6>Full Stack Web Development - Coding Bootcamp</h6>
+                <p className="subheader"> Nov 2022 - May 2023</p>
+              </h4>
+            </div>
+            <br />
             <h3>
               {" "}
               <i className="tiny material-icons">work</i> Professional
@@ -48,16 +71,16 @@ export default function Resume() {
               </h4>
               <ul className="bulletPoints">
                 <li>
-                  Built Excel reports for client review of received inventory
-                  vs. expected inventory.
+                  Developed Excel reports for client review of received
+                  inventory, ensuring accuracy and efficiency.
                 </li>
                 <li>
-                  Maintained 6 month discrepancy report for weekly review by
-                  client
+                  Managed a 6-month discrepancy report, providing weekly updates
+                  to clients for inventory reconciliation.
                 </li>
                 <li>
-                  Sustained workflow when transitioning from 4 to 3 employees on
-                  our client account team
+                  Successfully maintained workflow during a transition period,
+                  adapting to a reduced team size.
                 </li>
               </ul>
               <h4>
@@ -67,28 +90,14 @@ export default function Resume() {
               </h4>
               <ul className="bulletPoints">
                 <li>
-                  Maintained a clean driving record as an over the road box
-                  truck driver
+                  Traveled nationwide to various job sites and served diverse
+                  customers, demonstrating flexibility and adaptability.
                 </li>
                 <li>
-                  Traveled the country for various jobs and customers when
-                  requested
-                </li>
-                <li>
-                  Delivered a vehicle and worked in the Florida region for 3
-                  weeks for off duty coworker
+                  Implemented Data Erasure processes on client hardware prior to
+                  removal.
                 </li>
               </ul>
-            </div>
-            <h3>
-              <i className="tiny material-icons">library_books</i> Education
-            </h3>
-            <div className="container education border rounded border-dark">
-              <h4>
-                University of Kansas Coding Bootcamp
-                <h6>Full Stack Web Development</h6>
-                <p className="subheader"> Nov 2022 - May 2023</p>
-              </h4>
             </div>
           </div>
         </div>

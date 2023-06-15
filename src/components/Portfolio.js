@@ -8,8 +8,8 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       <div className="container rounded bootcamp">
-        <div className="row">
-          <div class="container col-4 project">
+        <div className="row overflow-auto">
+          <div class="container col-md-4 col-sm-12 project">
             <img
               src={game}
               className="image border border-dark rounded"
@@ -26,44 +26,45 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="container col-8">
+          <div className="container col-sm-12 col-md-8">
+            <br />
             <ul className="align-middle">
               <li>
-                Game Night is an app to help create, track, and update your
-                ongoing game nights.
+                Game Night allows you to create, track, and update your ongoing
+                game nights.
               </li>
               <li>
                 React.js, HTML, CSS, BootStrap, MaterialUI, Node.js, Express,
                 MongoDB, GraphQL
               </li>
               <li>
-                I created the React components, functionality, and style of
-                Login, Signup, and Widgets, as well as setting up the Mongo
-                Atlas DB and deploying to Heroku
+                Created the React components, functionality, and style of Login,
+                Signup, and Widgets. Additionally, I set up and managed our
+                KANBAN board, as well as the Mongo Atlas DB and deployed the app
+                to Heroku.
               </li>
             </ul>
           </div>
         </div>
         <div className="row">
-          <div className="container col-8">
+          <div className="container col-sm-12 col-md-8">
+            <br />
             <ul>
               <li>
-                Andrew’s List is a website for connecting homeowners and
-                Contractors for the purpose of requesting and bidding on home
-                improvement projects
+                Andrew’s List connects homeowners and Contractors to request and
+                bid on home improvement projects
               </li>
               <li>
                 HTML, CSS, Bootstrap, Node.js, Express, REST API, MySQL,
                 Sequelize, Handlebars.js
               </li>
               <li>
-                My focus on this project was on the front end design and the
-                implementation of Handlebars.js for our template engine along
-                with Heroku deployment and team guidance.
+                Developed the front end design and implemented Handlebars.js as
+                our template engine
               </li>
             </ul>
           </div>
-          <div class="col-4 container project">
+          <div class="col-md-4 col-sm-12 container project">
             <img
               src={andrew}
               className="image border border-dark rounded"
@@ -81,8 +82,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row m-2">
-          <div class="col-4 container project">
+        <div className="row">
+          <div class="col-md-4 col-sm-12 container project">
             <img
               src={dog}
               className="image border border-dark rounded"
@@ -105,15 +106,16 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="container col-8">
+          <div className="container col-sm-12 col-md-8">
+            <br />
             <ul>
               <li>
-                Our search engine allows a user to select a cat or dog breed and
-                is presented with a photo and useful information about the breed
+                Select a Breed of Cat or Dog and see a photo and interesting
+                facts about that breed
               </li>
               <li>HTML, CSS, Bulma, Fetch APIs</li>
               <li>
-                I implemented the Fetch API calls for dog images and information
+                Implemented the Fetch API calls for dog images and information
               </li>
             </ul>
           </div>
