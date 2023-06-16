@@ -46,7 +46,7 @@ export default function Portfolio() {
             </ul>
           </div>
         </div>
-        <div className="row">
+        <div className="row border-top">
           <div className="container col-sm-12 col-md-8">
             <br />
             <ul>
@@ -82,7 +82,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row border-top">
           <div class="col-md-4 col-sm-12 container project">
             <img
               src={dog}
