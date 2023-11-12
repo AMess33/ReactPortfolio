@@ -42,7 +42,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row overflow-auto">
+        <div className="row border-top overflow-auto">
           <div class="container col-md-4 col-sm-12 project">
             <img
               src={game}
