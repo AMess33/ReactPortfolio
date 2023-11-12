@@ -10,6 +10,20 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="container rounded bootcamp">
         <div className="row overflow-auto">
+          <div className="container col-sm-12 col-md-8">
+            <br />
+            <ul className="align-middle">
+              <li>
+                Poker Roll allows you to track, update, and manage your poker
+                bankroll and all your poker sessions.
+              </li>
+              <li>
+                React.js, HTML, CSS, MaterialUI, Node.js, Express, MongoDB,
+                RESTFul API, Clerk, Fly.io
+              </li>
+              <li>Responsible for entire codebase</li>
+            </ul>
+          </div>
           <div class="container col-md-4 col-sm-12 project">
             <img
               src={poker}
@@ -26,20 +40,6 @@ export default function Portfolio() {
                 <i class="bi bi-github"></i>
               </a>
             </div>
-          </div>
-          <div className="container col-sm-12 col-md-8">
-            <br />
-            <ul className="align-middle">
-              <li>
-                Poker Roll allows you to track, update, and manage your poker
-                bankroll and all your poker sessions.
-              </li>
-              <li>
-                React.js, HTML, CSS, MaterialUI, Node.js, Express, MongoDB,
-                RESTFul API, Clerk, Fly.io
-              </li>
-              <li>Responsible for entire codebase</li>
-            </ul>
           </div>
         </div>
         <div className="row overflow-auto">
