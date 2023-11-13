@@ -37,13 +37,14 @@ export default function Resume() {
                 CSS
               </p>
               <p>
-                <span className="fw-bold">Frontend Technologies:</span> React,
-                Bootstrap, jQuery, Handlebars.js, JWT
+                <span className="fw-bold">Frontend Technologies:</span>{" "}
+                React.js, Bootstrap, MaterialUI, jQuery, Handlebars.js, JWT,
+                Clerk, Nx, Nivo
               </p>
               <p>
                 <span className="fw-bold">Backend Technologies:</span> RESTful
-                API, Node.js, Express.js, Heroku, Bcrypt, MySql, Sequelize,
-                MongoDB, Mongoose, Apollo Client, GraphQL
+                API, Node.js, Express.js, Heroku, Bcrypt, MySQL, Sequelize,
+                MongoDB, Mongoose, Apollo Client, GraphQL, Fly.io
               </p>
             </div>
             <br />
