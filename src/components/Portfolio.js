@@ -13,15 +13,16 @@ export default function Portfolio() {
           <div className="container col-sm-12 col-md-8">
             <br />
             <ul className="align-middle">
+              <li>Poker Roll is a poker bankroll and session tracking app</li>
               <li>
-                Poker Roll allows you to track, update, and manage your poker
-                bankroll and all your poker sessions.
+                React.js, MaterialUI, Node.js, Express, MongoDB, RESTful API,
+                Clerk, Nx, Nivo, React Query, dayJS
               </li>
               <li>
-                React.js, HTML, CSS, MaterialUI, Node.js, Express, MongoDB,
-                RESTFul API, Clerk, Fly.io
+                Developed front end using React.js and MaterialUI. Implemented
+                Clerk’s user management and Nivo’s graph library. Created
+                RESTful API routes to MongoDB
               </li>
-              <li>Responsible for entire codebase</li>
             </ul>
           </div>
           <div class="container col-md-4 col-sm-12 project">
