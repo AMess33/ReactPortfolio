@@ -33,18 +33,14 @@ export default function Resume() {
             </h3>
             <div className="container jobs border rounded border-dark">
               <p>
-                <span className="fw-bold">Languages:</span> JavaScript, HTML,
-                CSS
+                <span className="fw-bold">FullStack:</span> JavaScript, HTML,
+                CSS, React.js, MongoDB, Express.js, Node.js
               </p>
               <p>
-                <span className="fw-bold">Frontend Technologies:</span>{" "}
-                React.js, Bootstrap, MaterialUI, jQuery, Handlebars.js, JWT,
-                Clerk, Nx, Nivo
-              </p>
-              <p>
-                <span className="fw-bold">Backend Technologies:</span> RESTful
-                API, Node.js, Express.js, Heroku, Bcrypt, MySQL, Sequelize,
-                MongoDB, Mongoose, Apollo Client, GraphQL, Fly.io
+                <span className="fw-bold">Frameworks/Libraries:</span>{" "}
+                Bootstrap, MaterialUI, jQuery, Handlebars.js, JWT, Bcrypt,
+                Clerk, Nx, RESTful API, Sequelize, MySQL, PostgreSQL, Mongoose,
+                Apollo Client, GraphQL, React Query, Git, Agile, KANBAN
               </p>
             </div>
             <br />
