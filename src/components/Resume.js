@@ -68,12 +68,12 @@ export default function Resume() {
               </h4>
               <ul className="bulletPoints">
                 <li>
-                  Developed Excel reports for client review of received
-                  inventory, ensuring accuracy and efficiency.
+                  Developed MSExcel reports of received inventory, ensuring
+                  accuracy and efficiency.
                 </li>
                 <li>
-                  Managed a 6-month discrepancy report, providing weekly updates
-                  to clients for inventory reconciliation.
+                  Managed a 6-month MSExcel discrepancy report, providing weekly
+                  updates to clients for inventory reconciliation.
                 </li>
                 <li>
                   Successfully maintained workflow during a transition period,
